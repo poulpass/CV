@@ -7,27 +7,42 @@
     font-family: 'Julius Sans One', sans-serif;
 }
 
+function put_scroll(aside)
+{
+    if(div.style.height > 400)
+    div.style.overflow = "scroll";
+}
+
 h1, h3, p, q
 {
 	font-family: 'Sarala', sans-serif;
     color: #663333;
 }
 
+h1
+{
+	font-size: 75px;
+	margin: 0px;
+}
+
 h2, ul
 {
     font-family: 'Julius Sans One', sans-serif;
+    margin: 0px;
 }
 
 #bloc_page
 {
 	width: 700px;
-	position: float;
+	position:absolute;
+	top:0;
+	left: 240px;
 	margin: auto;
 }
 
 header
 {
-	position: absolute; z-index: 4;
+	position: absolute; z-index: 5;
 	display: inline-block;
 	position: fixed;
 	text-shadow: 1px 1px black;
@@ -43,11 +58,19 @@ aside, header
 
 aside
 {
-
+	display: block;
+	position: absolute; z-index: 5;
+	padding: 5px;
 	position: fixed;
-	top: 130px;
-	left: 0;
+	top: 10px;
+	left: 10;
 	width: 230px;
+}
+
+scroll
+{
+	max-height:500px;
+	overflow: auto;
 }
 
 #article
@@ -96,9 +119,9 @@ bside
 	border: 5px;
 	border: solid;
 	border-color: #663333;
+	background-color: white;
 	padding: 10px;
     color: #000000;
-	
 }
 
 #top
@@ -109,7 +132,7 @@ bside
 	position: fixed;
 	top: 0;
 	left: 0;
-	height: 150px;
+	height: 160px;
 	width: 100%;
 	background-color: #9933ff;
 }
