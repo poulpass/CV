@@ -1,0 +1,123 @@
+@font-face
+{
+    font-family: 'Sarala', sans-serif;
+}
+@font-face
+{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+h1, h3, p, q
+{
+	font-family: 'Sarala', sans-serif;
+    color: #663333;
+}
+
+h2, ul
+{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#bloc_page
+{
+	width: 700px;
+	position: float;
+	margin: auto;
+}
+
+header
+{
+	position: absolute; z-index: 4;
+	display: inline-block;
+	position: fixed;
+	text-shadow: 1px 1px black;
+}
+
+aside, header
+{
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+
+}
+
+aside
+{
+
+	position: fixed;
+	top: 130px;
+	left: 0;
+	width: 230px;
+}
+
+#article
+{
+	display: inline-block; 
+	position: relative;
+	top: -280px;
+	float: right;
+	margin: 0;
+}
+
+#img1
+{
+	position: relative;
+	top: 180px;
+	left: 70px;
+}
+
+#img2
+{
+	position: relative;
+	top: 210px;
+	left: 70px;
+}
+
+#img3
+{
+	position: relative;
+	top: 240px;
+	left: 70px;
+}
+
+#img4
+{
+	position: relative;
+	top: 270px;
+	left: 70px;
+}
+
+bside
+{
+	position: fixed;
+	top: 150px;
+	right: 0;
+	width: 230px;
+	border: 5px;
+	border: solid;
+	border-color: #663333;
+	padding: 10px;
+    color: #000000;
+	
+}
+
+#top
+{
+	position: absolute; z-index: 4;
+	display: inline-block;
+	vertical-align: top;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 150px;
+	width: 100%;
+	background-color: #9933ff;
+}
+
+
+
+#citation
+{
+	background-color: #cc9999;
+	padding: 5px;
+}
